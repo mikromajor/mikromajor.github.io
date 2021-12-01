@@ -1,0 +1,77 @@
+body,
+header,
+nav,
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+body {
+  background-image: linear-gradient(90deg, white, blue);
+}
+#countriesList {
+  width: 500px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+main {
+  display: inline-flex;
+  justify-content: center;
+  width: 98%;
+}
+.content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 350px;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  /* box-shadow: 30px 25px 5px rgb(255, 255, 255); */
+  background-image: linear-gradient(
+    0deg,
+    white,
+    rgb(15, 207, 255)
+  );
+}
+#inputMenu {
+  max-width: 300px;
+}
+button {
+  display: flex;
+  flex-flow: column;
+  margin: 5px;
+  padding: 4px 26px;
+  border-radius: 70%;
+  background-color: rgb(145, 161, 214);
+}
+button:hover {
+  cursor: pointer;
+}
+button:focus {
+  background-color: rgb(255, 253, 162);
+}
+
+.hidden {
+  display: none;
+}
+#warning {
+  background-color: yellow;
+}
+h2,
+h3,
+p {
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 1000px) {
+  main {
+    display: flex;
+    flex-flow: column;
+  }
+}
