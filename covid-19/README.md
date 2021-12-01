@@ -1,5 +1,5 @@
 # covid-19 - it's pet project.
-This App is funtional single page applications written in vanilla java script.
+This App is functional single page applications written in vanilla java script.
 
 Showing last statistical information about covid-19 in different countries of the world.
 Users may choose different periods to see statistics information.
